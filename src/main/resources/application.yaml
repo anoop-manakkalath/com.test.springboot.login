@@ -1,0 +1,12 @@
+## Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:
+  datasource.url: jdbc:hsqldb:file:C:\Users\AN20080725\hsqldb\users_login
+  datasource.username: sa
+  datasource.password:
+
+  # The SQL dialect makes Hibernate generate better SQL for the chosen database
+  jpa.properties.hibernate.dialect: org.hibernate.dialect.HSQLDialect
+
+  # Hibernate ddl auto (create, create-drop, validate, update)
+  jpa.hibernate.ddl-auto: update
+  
